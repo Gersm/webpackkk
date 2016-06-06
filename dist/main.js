@@ -44,27 +44,35 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
+	// codigo
+	document.write("Bienvenido!!!");
+	console.log("Preguntas de Webpack!!!");
+
+	// componentes
 	__webpack_require__(1);
-	__webpack_require__(2);
-
-	document.write("Welcome to big hair concerts!!!");
-
-	console.log("app loader!!!");
-
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	console.log('primera hoja');
+	'use strict';
 
+	console.log('en webpack.config.js => que significa  test: /\.vue$/');
+	console.log('en webpack.config.js => que significa  "__dirname"');
+	console.log('que servidor usas: [webpack-dev-server,express]');
+	console.log('path para q sirve');
 
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
+	var temporal = function temporal(nombre) {
+	   if (nombre !== 'gersom') {
+	      console.log('nombre incorrecto!!!');
+	   } else {
+	      console.log('Hola mi nombres es: ' + nombre);
+	   }
+	};
 
-	console.log('segunda hoja');
-
+	temporal('gersom');
 
 /***/ }
 /******/ ]);

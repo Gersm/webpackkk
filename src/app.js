@@ -1,8 +1,6 @@
+// codigo
+   document.write("Bienvenido!!!");
+   console.log("Preguntas de Webpack!!!");
 
-document.write("Welcome to big hair concerts!!!");
-
-console.log("app loader!!!");
-
-
-require('./component/primera');
-require('./component/segunda');
+   // componentes
+   require('./component/dudas');
