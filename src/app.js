@@ -1,6 +1,9 @@
-// codigo
-   document.write("Bienvenido!!!");
-   console.log("Preguntas de Webpack!!!");
+let temporal = (nombre) => {
+   if (nombre !== 'gersom') {
+      console.log('nombre incorrecto!!!');
+   } else {
+      console.log(`Hola mi nombre es: ${nombre}`);
+   }
+};
 
-   // componentes
-   require('./component/dudas');
+temporal('gersom');

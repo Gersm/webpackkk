@@ -1,13 +1,15 @@
 {
-   "name": "pruebaWebpack",
+   "name": "webpack",
    "version": "0.0.1",
-   "description": "Prueba de Webpack",
-   "main": "src/app.js",
-   "scripts": {
-      "start": "webpack-dev-server --inline"
-   },
+   "description": "Plantilla de webpack",
    "author": "Gersom Alaja",
    "license": "copyleft",
+   "dependencies": {
+      "express": "^4.13.4",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.10.0"
+   },
    "devDependencies": {
       "babel-core": "^6.9.1",
       "babel-loader": "^6.2.4",
